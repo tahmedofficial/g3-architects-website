@@ -7,7 +7,7 @@
 
 /* Shared styles */
 
-.btn_primary {
+.primary_btn {
     width: 180px;
     height: 64px;
     background-color: #FF900E;
@@ -25,6 +25,12 @@
     font-weight: 400;
 }
 
+.primary_title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 /* header styles */
 
 header {
@@ -38,12 +44,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav_title {
-    color: #131313;
-    font-size: 3rem;
-    font-weight: 700;
 }
 
 nav>ul {
@@ -115,12 +115,12 @@ main {
     font-weight: 500;
 }
 
-.of_our{
+.of_our {
     color: #131313;
     font-weight: 700;
 }
 
-.text_features{
+.text_features {
     color: #FF900E;
     font-weight: 700;
 }
@@ -134,11 +134,12 @@ main {
         padding: 20px;
     }
 
-    nav, .teams_container {
+    nav,
+    .teams_container {
         flex-direction: column;
     }
 
-    .teams_images_container{
+    .teams_images_container {
         grid-template-columns: 1fr;
     }
 
@@ -157,7 +158,8 @@ main {
         padding: 50px;
     }
 
-    nav, .teams_container {
+    nav,
+    .teams_container {
         flex-direction: column;
     }
 
