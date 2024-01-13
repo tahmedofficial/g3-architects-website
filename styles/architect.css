@@ -13,7 +13,10 @@
     background-color: #FF900E;
     font-weight: 600;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -70,4 +73,37 @@ nav li a {
 .banner_description {
     color: #727272;
     font-weight: 400;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive media queries */
+
+/* Mobile devices */
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* Tablet or medium devices */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
 }
